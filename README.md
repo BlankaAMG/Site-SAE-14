@@ -48,3 +48,6 @@ WBS :
 Planning : 
 
 <img width="1792" height="1052" alt="image" src="https://github.com/user-attachments/assets/3828dddc-63b8-4a91-89fb-df56b4e33e88" />
+
+
+Lien Trello : https://trello.com/invite/b/692f3da2acd654519981d7ff/ATTIaa8ef3b4600c65d7590f23a1e3b640ccD8FC06AB/projet-sae-14
