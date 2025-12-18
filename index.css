@@ -67,7 +67,7 @@ body {
 
 .hero {
     height: 80vh;
-    background-image: url('Images/siege.png');
+    background-image: url('images/siege.png');
     background-size: cover;
     background-position: center;
     display: flex;
