@@ -37,3 +37,7 @@ https://blankaamg.github.io/Site-SAE-14/intro.html
 ## Auteur
 
 Projet réalisé par **Yasin Cakici**  
+
+
+<img width="1102" height="324" alt="WBS SAE 14" src="https://github.com/user-attachments/assets/2d044085-0e1f-4664-b03e-71e0c4cd451c" />
+
