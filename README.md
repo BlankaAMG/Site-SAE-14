@@ -47,4 +47,4 @@ WBS :
 
 Planning : 
 
-<img width="1102" height="324" alt="WBS SAE 14" src="https://github.com/user-attachments/assets/d34cc802-0170-4b71-8a0e-ea7a98c13228" />
+<img width="1792" height="1052" alt="image" src="https://github.com/user-attachments/assets/3828dddc-63b8-4a91-89fb-df56b4e33e88" />
