@@ -186,9 +186,7 @@ content .paragraph {
 
 
 
-/* Section pionnière */
 .pioneer {
-    background-color: #8e8e8e;
     padding: 60px 20px;
 }
 
@@ -228,10 +226,11 @@ content .paragraph {
     border-radius: 10px;
 }
 
-/* Section héritage / conclusion */
+
 .brand-presentation {
     background-color: #f2f2f2;
     padding: 60px 20px;
+    boder-radius: 30px;
 }
 
 .brand-content {
@@ -242,7 +241,7 @@ content .paragraph {
     align-items: center;
 }
 
-/* Variante image à gauche */
+
 .brand-content.reverse {
     flex-direction: row;
 }
