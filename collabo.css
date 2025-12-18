@@ -1,0 +1,137 @@
+/* --- Body & base --- */
+body {
+    font-size: 16px;
+    color: black;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+}
+
+/* --- Header --- */
+.rectangle {
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.author-tag {
+    color: white;
+    font-size: 0.9rem;
+    position: absolute;
+    right: 20px;    
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 0.8;
+}
+
+.logo {
+    width: 60px;
+    height: auto;
+}
+
+.navbar {
+    position: absolute;
+    left: 30px;
+    display: flex;
+    gap: 30px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1rem;
+    position: relative; 
+    padding-bottom: 5px;
+}
+
+.navbar a:hover {
+    color: gray;
+}
+
+.navbar a.active::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px; 
+    width: 100%;
+    background-color: white;
+    border-radius: 2px;
+}
+
+/* --- Section Collaborations --- */
+.collaborations {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.collaborations h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.collaborations p {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 1.1rem;
+    color: #333;
+}
+
+/* --- Cartes collaboration --- */
+.collaboration {
+    background-color: #f0f0f0;  /* fond gris clair */
+    padding: 25px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.collaboration:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.collaboration h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+.collaboration p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.collaboration img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+/* --- Bouton En savoir plus --- */
+.btn-next {
+    display: inline-block;
+    padding: 10px 25px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-next:hover {
+    background-color: #333;
+    transform: translateY(-2px);
+}

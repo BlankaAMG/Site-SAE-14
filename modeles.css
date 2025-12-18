@@ -1,0 +1,166 @@
+body {
+    font-size: 16px;
+    color: black;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+}
+
+
+.rectangle {
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+}
+
+.author-tag {
+    color: white;
+    font-size: 0.9rem;
+    position: absolute;
+    right: 20px;    
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 0.8;
+}
+
+.logo {
+    width: 60px;
+    height: auto;
+}
+
+.navbar {
+    position: absolute;
+    left: 30px;
+    display: flex;
+    gap: 30px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1rem;
+    position: relative; 
+    padding-bottom: 5px;
+}
+
+.navbar a:hover {
+    color: gray;
+}
+
+.navbar a.active::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px; 
+    width: 100%;
+    background-color: white;
+    border-radius: 2px;
+}
+
+
+.hero {
+    height: 80vh;
+    background-image: url('Images/classes.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: white;
+    text-align: center;
+}
+
+
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4); 
+    z-index: 1;
+}
+
+.hero-text {
+    position: relative;
+    z-index: 2;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.5rem;
+}
+
+content .paragraph {
+    padding: 20px;
+    width: 50%;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.models {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.models h1 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.car {
+    display: inline-block;
+    margin: 20px;
+    width: 300px;
+    vertical-align: top;
+    background-color: #f2f2f2; /* fond gris clair */
+    padding: 15px;              /* un peu d'espace autour du contenu */
+    border-radius: 10px;
+}
+
+.car img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.car h2 {
+    margin-top: 15px;
+    font-size: 1.5rem;
+}
+
+.car p {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #555;
+}
+
+.btn-next {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.btn-next:hover {
+    background-color: #727272;
+}
+
