@@ -1,1 +1,39 @@
-# Site-SAE-14
+# Mercedes-Benz – Projet Web
+
+## Présentation du projet
+
+Ce projet est un site web dédié à la marque **Mercedes-Benz**, réalisé dans le cadre de la SAE 14.  
+L’objectif ici est de concevoir un site multipages en HTML et CSS présentant l’histoire de la marque, ses modèles emblématiques, ses collaborations ainsi qu’un lien personnel avec celle-ci.
+
+Mercedes-Benz est une marque pionnière de l’automobile et représente pour moi une véritable passion depuis l’enfance. Ce projet m’a permis de lier un travail scolaire à un sujet qui me motive réellement, afin de produire un site plus personnel, cohérent et abouti.
+
+Le site est structuré autour de plusieurs pages :
+- Accueil : présentation générale de la marque
+- Modèles : sélection de mes modèles favoris
+- Collaborations : partenariats marquants (Maybach, Brabus, McLaren…)
+- À propos : présentation personnelle et explication du projet
+
+---
+
+## Technologies utilisées
+
+Le site a été développé uniquement avec des technologies web de base :
+
+- **HTML5** : structure des pages
+- **CSS3** : mise en forme, mise en page et responsive design
+- **Git & GitHub** : gestion de versions et hébergement
+
+---
+
+## Hébergement
+
+Le site est hébergé grâce à **GitHub Pages** et est accessible à l’adresse suivante :
+
+👉 **Lien vers mon site :**  
+https://blankaamg.github.io/Site-SAE-14/index.html
+
+---
+
+## Auteur
+
+Projet réalisé par **Yasin Cakici**  
