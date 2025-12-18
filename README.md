@@ -30,7 +30,7 @@ Le site a été développé uniquement avec des technologies web de base :
 Le site est hébergé grâce à **GitHub Pages** et est accessible à l’adresse suivante :
 
 👉 **Lien vers mon site :**  
-https://blankaamg.github.io/Site-SAE-14/index.html
+https://blankaamg.github.io/Site-SAE-14/intro.html
 
 ---
 
